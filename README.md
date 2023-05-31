@@ -9,7 +9,7 @@
 - 💬 Ask me about **#ProductGrowth,#ProductStrategy,#ProductDiscovery and #ProductDevelopment**
 - 📫 How to reach me **gauravguha0611@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+
 
 <p align="left">
 
