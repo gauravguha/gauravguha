@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Gaurav Guha</h1>
 
-<h3 align="center">Hey there, it's great to meet you! I'm passionate about building web and mobile products that make a real difference in people's lives. I've had the privilege of impacting millions of users through my work, and I'm constantly seeking new and innovative ways to make our products even better.</h3>
+<h3 align="center">Hey there, it's great to meet you! I'm passionate about building web and mobile products that make a real difference in people's lives.</h3>
 
 - 🔭 I’m currently working on [gluestack](https://gluestack.io)
 - 👨‍💻 All of my projects are available at https://gauravguha.com
