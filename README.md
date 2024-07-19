@@ -4,7 +4,7 @@
 
 <h3 align="center">Hey there, it's great to meet you!</h3>
 
-- 🔭 I’m currently working on [gluestack](https://gluestack.io)
+- 🔭 I’m currently working on [hiroscope.ai](https://hiroscope.ai)
 - 👨‍💻 All of my projects are available at https://gauravguha.com
 - 💬 Ask me about **#ProductGrowth,#ProductStrategy,#ProductDiscovery and #ProductDevelopment**
 - 📫 How to reach me **gauravguha0611@gmail.com**
