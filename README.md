@@ -1,20 +1,35 @@
-<h2 align="center"> Hey there 👋, I'm Gaurav Guha! </h2>
-<div>
+<h2 align="center">Hey there 👋, I'm Gaurav Guha!</h2>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gauravguha)
-[![Website](https://img.shields.io/badge/Website-4285F4)](https://gauravguha.com)
-[![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@gauravguha)
+<p align="center"><strong>Product Management Leader • AI Agents & Automation</strong></p>
 
+<p align="center">
+  <a href="https://www.gauravguha.com">Website</a> •
+  <a href="https://linkedin.com/in/gauravguha">LinkedIn</a> •
+  <a href="https://github.com/gauravguha">GitHub</a>
+</p>
 
-  
-## About Me:
-Hey there, it's great to meet you! I'm passionate about building web and mobile products that make a real difference in people's lives. I've had the privilege of impacting millions of users through my work, and I'm constantly seeking new and innovative ways to make our products even better.
+## About
+Experienced PM with 10+ years in SaaS and tech, focused on AI-driven, consumer-facing products.  
+I lead cross-functional teams, ship data-driven features, and keep UX simple so teams actually adopt the work.  
+Lately, I’m building **AI agents and automation** that remove busywork, shorten SLAs, and improve decision-making — end-to-end from discovery to launch.
 
+## What I’m good at
+- **Product:** discovery interviews, JTBD, problem framing, clear success metrics  
+- **AI/Automation:** finding the right spots for RAG/summarization/recommendations, privacy & data quality checks  
+- **Evaluation:** groundedness, relevance, latency scorecards that guide shipping decisions  
+- **Go-to-market:** GA readiness, training plans, knowledge base, support workflows, release notes  
+- **Ops & tooling:** automating research ops (e.g., n8n pipelines, weekly adoption/pain scorecards in Slack)
 
-<br/>
+## Education
+- **UT Austin** — Post Graduate Program in Artificial Intelligence & Machine Learning (Nov 2024 – Nov 2025)
+- **XLRI Jamshedpur** — Advanced Product Management (Apr 2021 – Apr 2022)
+- **PES University** — BE, Computer Science (Aug 2008 – Aug 2012)
+- **Jawahar Vidya Mandir, Shyamali** (2005 – 2007)
 
-## 💻 Core skills:
-![Machine Learning](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+## Get in touch
+- Website: **https://www.gauravguha.com**
+- LinkedIn: **https://linkedin.com/in/gauravguha**
+<!-- Email intentionally left out — paste the one you want visible and I’ll add it -->
 
 
 
