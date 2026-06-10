@@ -1,6 +1,6 @@
 <h2 align="center">Hey there 👋, I'm Gaurav Guha!</h2>
 
-<p align="center"><strong>Product Management Leader • AI Agents & Automation</strong></p>
+<p align="center"><strong>Lead AI Product Manager • I ship code, not just specs</strong></p>
 
 <p align="center">
   <a href="https://www.gauravguha.com">Website</a> •
@@ -9,28 +9,22 @@
 </p>
 
 ## About
-Experienced PM with 10+ years in SaaS and tech, focused on AI-driven, consumer-facing products.  
-I lead cross-functional teams, ship data-driven features, and keep UX simple so teams actually adopt the work.  
-Lately, I’m building **AI agents and automation** that remove busywork, shorten SLAs, and improve decision-making — end-to-end from discovery to launch.
+I've shaped open-source design systems like [gluestack](https://gluestack.io), used by thousands of teams, helped build [RapidNative](https://rapidnative.com) (prompts to real React Native apps), and now lead AI product at [Natural Heroes](https://naturalheroes.nl). On the side I build and sell [thefrontkit](https://thefrontkit.com), production-ready Next.js app kits. I'm in the codebase as much as the roadmap.
 
-## What I’m good at
-- **Product:** discovery interviews, JTBD, problem framing, clear success metrics  
-- **AI/Automation:** finding the right spots for RAG/summarization/recommendations, privacy & data quality checks  
-- **Evaluation:** groundedness, relevance, latency scorecards that guide shipping decisions  
-- **Go-to-market:** GA readiness, training plans, knowledge base, support workflows, release notes  
-- **Ops & tooling:** automating research ops (e.g., n8n pipelines, weekly adoption/pain scorecards in Slack)
+## Tech I work with
+`TypeScript` `React` `Next.js` `React Native` `Tailwind` `shadcn/ui` `Python` `LLMs / RAG` `n8n`
+
+## What you'll find here
+- 🧰 **[thefrontkit](https://thefrontkit.com):** Next.js business app templates
+- ⚛️ Open-source design systems and dev tooling (gluestack, NativeBase, BuilderX)
+- 🤖 AI agents, automation, and eval experiments
 
 ## Education
-- **UT Austin** — Post Graduate Program in Artificial Intelligence & Machine Learning (Nov 2024 – Nov 2025)
-- **XLRI Jamshedpur** — Advanced Product Management (Apr 2021 – Apr 2022)
-- **PES University** — BE, Computer Science (Aug 2008 – Aug 2012)
-- **Jawahar Vidya Mandir, Shyamali** (2005 – 2007)
+- **Deakin University, Australia:** Master of Data Science (expected Feb 2027)
+- **UT Austin:** Post Graduate Program in Artificial Intelligence & Machine Learning (Nov 2024 – Nov 2025)
+- **XLRI Jamshedpur:** Advanced Product Management (Apr 2021 – Apr 2022)
+- **PES University:** BE, Computer Science (Aug 2008 – Aug 2012)
 
 ## Get in touch
 - Website: **https://www.gauravguha.com**
 - LinkedIn: **https://linkedin.com/in/gauravguha**
-<!-- Email intentionally left out — paste the one you want visible and I’ll add it -->
-
-
-
-
