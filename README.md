@@ -1,6 +1,6 @@
 <!-- ✨ Profile banner — animated SVG lives in ./assets/header.svg -->
 <a href="https://www.gauravguha.com">
-  <img src="./assets/header.svg" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%" />
+  <img src="./assets/header.svg?v=2" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%" />
 </a>
 
 <p align="center">
