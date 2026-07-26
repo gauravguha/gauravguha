@@ -1,129 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-label="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.">
   <title>Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.</title>
-  <desc>Animated banner: name with a gradient shine, a monospace motto with a blinking cursor, and an orbiting product-code-AI motif.</desc>
   <defs>
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#818CF8"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#22D3EE"/>
+    <linearGradient id="flow" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0"    stop-color="#818CF8"/>
+      <stop offset="0.33" stop-color="#A78BFA"/>
+      <stop offset="0.66" stop-color="#22D3EE"/>
+      <stop offset="1"    stop-color="#818CF8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="260 0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#22D3EE"/>
+      <stop offset="0" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
-    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#6366F1" stop-opacity="0.55"/>
-      <stop offset="0.5" stop-color="#7C3AED" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0A0B14" stop-opacity="0"/>
+    <radialGradient id="aurA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.7"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#0A0B14" stop-opacity="0"/>
+    <radialGradient id="aurB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.6" cy="1.6" r="1.4" fill="#ffffff" fill-opacity="0.05"/>
+    <radialGradient id="aurC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.55"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.3" fill="#ffffff" fill-opacity="0.045"/>
     </pattern>
-    <clipPath id="nameClip">
-      <text x="88" y="192" font-size="82" font-weight="800" letter-spacing="-1.5"
-            font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">Gaurav Guha</text>
-    </clipPath>
-    <clipPath id="panelClip">
-      <rect x="0" y="0" width="1280" height="340" rx="24"/>
-    </clipPath>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="42"/></filter>
+    <filter id="bloom" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="7"/></filter>
+    <clipPath id="panelClip"><rect x="0" y="0" width="1280" height="380" rx="26"/></clipPath>
+    <clipPath id="typeClip"><rect x="86" y="268" width="0" height="34">
+      <animate attributeName="width" values="0;80;150;220;300;360;418" keyTimes="0;0.16;0.33;0.5;0.7;0.86;1" calcMode="discrete" dur="1500ms" begin="1150ms" fill="freeze"/>
+    </rect></clipPath>
 
     <style>
-      .name-fill { animation: rise 900ms cubic-bezier(.2,.7,.2,1) both; }
-      .eyebrow   { animation: rise 900ms 80ms  cubic-bezier(.2,.7,.2,1) both; }
-      .motto     { animation: rise 900ms 300ms cubic-bezier(.2,.7,.2,1) both; }
-      .chrome    { animation: rise 900ms 140ms cubic-bezier(.2,.7,.2,1) both; }
-      .drift-a   { animation: driftA 15s ease-in-out infinite; }
-      .drift-b   { animation: driftB 19s ease-in-out infinite; }
-      .shine     { animation: sweep 5s 900ms ease-in-out infinite backwards; }
-      .cursor    { animation: blink 1.05s step-end infinite; }
-      .uline     { stroke-dasharray: 474; stroke-dashoffset: 474; animation: draw 1200ms 520ms cubic-bezier(.6,0,.2,1) forwards; }
-      .p         { animation: floatUp 9s   ease-in-out infinite backwards; }
-      .p2        { animation: floatUp 11s  1.5s ease-in-out infinite backwards; }
-      .p3        { animation: floatUp 7.5s 3s   ease-in-out infinite backwards; }
-      .p4        { animation: floatUp 10s  2.2s ease-in-out infinite backwards; }
-      .p5        { animation: floatUp 8.5s 4.5s ease-in-out infinite backwards; }
-
-      @keyframes rise   { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes driftA { 0%,100% { transform: translate(0,0); } 50% { transform: translate(48px,-26px); } }
-      @keyframes driftB { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-42px,24px); } }
-      @keyframes sweep  { 0% { transform: translateX(-360px) skewX(-16deg); } 55%,100% { transform: translateX(820px) skewX(-16deg); } }
-      @keyframes blink  { 0%,48% { opacity: 1; } 49%,100% { opacity: 0; } }
-      @keyframes draw   { to { stroke-dashoffset: 0; } }
-      @keyframes floatUp{ 0% { transform: translateY(0); opacity: 0; } 12% { opacity: .7; } 88% { opacity: .7; } 100% { transform: translateY(-70px); opacity: 0; } }
-
-      @media (prefers-reduced-motion: reduce) {
-        .name-fill,.eyebrow,.motto,.chrome,.drift-a,.drift-b,.shine,.cursor,.p,.p2,.p3,.p4,.p5 { animation: none; }
-        .uline { stroke-dashoffset: 0; animation: none; }
+      .aur-a{animation:driftA 17s ease-in-out infinite}
+      .aur-b{animation:driftB 21s ease-in-out infinite}
+      .aur-c{animation:driftC 19s ease-in-out infinite}
+      .name{animation:rise 900ms 200ms cubic-bezier(.2,.7,.2,1) both}
+      .chrome{animation:rise 800ms 100ms cubic-bezier(.2,.7,.2,1) both}
+      .eyebrow{animation:rise 800ms 160ms cubic-bezier(.2,.7,.2,1) both}
+      .motto{animation:fade 500ms 1100ms ease both}
+      .uline{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 1100ms 900ms cubic-bezier(.6,0,.2,1) forwards}
+      .p{animation:floatUp 9s ease-in-out infinite backwards}
+      .p2{animation:floatUp 11s 1.4s ease-in-out infinite backwards}
+      .p3{animation:floatUp 7.6s 2.8s ease-in-out infinite backwards}
+      .p4{animation:floatUp 10s 2s ease-in-out infinite backwards}
+      .p5{animation:floatUp 8.4s 4.3s ease-in-out infinite backwards}
+      .nd1{animation:twinkle 4s ease-in-out infinite}
+      .nd2{animation:twinkle 5.5s .8s ease-in-out infinite}
+      .nd3{animation:twinkle 6.5s 1.6s ease-in-out infinite}
+      .ln{animation:linePulse 6s ease-in-out infinite}
+      @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes fade{from{opacity:0}to{opacity:1}}
+      @keyframes driftA{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,-30px)}}
+      @keyframes driftB{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,34px)}}
+      @keyframes driftC{0%,100%{transform:translate(0,0)}50%{transform:translate(38px,26px)}}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      @keyframes floatUp{0%{transform:translateY(0);opacity:0}12%{opacity:.7}88%{opacity:.7}100%{transform:translateY(-78px);opacity:0}}
+      @keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.42}}
+      @keyframes linePulse{0%,100%{opacity:.08}50%{opacity:.22}}
+      @media (prefers-reduced-motion: reduce){
+        .aur-a,.aur-b,.aur-c,.name,.chrome,.eyebrow,.motto,.p,.p2,.p3,.p4,.p5,.nd1,.nd2,.nd3,.ln{animation:none}
+        .uline{stroke-dashoffset:0;animation:none}
       }
     </style>
   </defs>
 
   <g clip-path="url(#panelClip)">
-    <rect x="0" y="0" width="1280" height="340" fill="#0A0B14"/>
-    <g class="drift-a"><ellipse cx="320" cy="120" rx="440" ry="330" fill="url(#glowA)"/></g>
-    <g class="drift-b"><ellipse cx="1040" cy="250" rx="400" ry="300" fill="url(#glowB)"/></g>
-    <rect x="0" y="0" width="1280" height="340" fill="url(#dots)"/>
+    <rect x="0" y="0" width="1280" height="380" fill="#08090F"/>
 
-    <circle class="p"  cx="470" cy="252" r="3"   fill="#22D3EE" fill-opacity="0.7"/>
-    <circle class="p2" cx="360" cy="272" r="2.4" fill="#A78BFA" fill-opacity="0.7"/>
-    <circle class="p3" cx="640" cy="256" r="2.2" fill="#818CF8" fill-opacity="0.7"/>
-    <circle class="p4" cx="560" cy="282" r="3"   fill="#22D3EE" fill-opacity="0.55"/>
-    <circle class="p5" cx="720" cy="246" r="2.6" fill="#A78BFA" fill-opacity="0.6"/>
+    <!-- aurora mesh -->
+    <g filter="url(#soft)">
+      <g class="aur-a"><circle cx="300" cy="150" r="230" fill="url(#aurA)"/></g>
+      <g class="aur-b"><circle cx="940" cy="120" r="210" fill="url(#aurB)"/></g>
+      <g class="aur-c"><circle cx="1120" cy="300" r="240" fill="url(#aurC)"/></g>
+    </g>
 
+    <rect x="0" y="0" width="1280" height="380" fill="url(#dots)"/>
+
+    <!-- ambient neural network (top strip) -->
+    <g stroke="#7DA6FF" fill="none">
+      <path class="ln"  d="M150,74 L330,116 L520,68 L706,104 L884,70 L1052,112 L1206,78" stroke-width="1"/>
+      <path class="ln"  d="M330,116 L360,168 M706,104 L640,166 M1052,112 L1150,168 M884,70 L960,160" stroke-width="1"/>
+    </g>
+    <g fill="#8FB4FF">
+      <circle class="nd1" cx="150"  cy="74"  r="3"/>
+      <circle class="nd2" cx="330"  cy="116" r="2.6"/>
+      <circle class="nd3" cx="520"  cy="68"  r="3.2"/>
+      <circle class="nd1" cx="706"  cy="104" r="2.6"/>
+      <circle class="nd2" cx="884"  cy="70"  r="3"/>
+      <circle class="nd3" cx="1052" cy="112" r="2.6"/>
+      <circle class="nd1" cx="1206" cy="78"  r="3"/>
+      <circle class="nd2" cx="360"  cy="168" r="2.2"/>
+      <circle class="nd3" cx="640"  cy="166" r="2.2"/>
+      <circle class="nd1" cx="960"  cy="160" r="2.2"/>
+      <circle class="nd2" cx="1150" cy="168" r="2.2"/>
+    </g>
+
+    <!-- floating particles -->
+    <circle class="p"  cx="470" cy="300" r="3"   fill="#22D3EE" fill-opacity="0.7"/>
+    <circle class="p2" cx="360" cy="318" r="2.4" fill="#A78BFA" fill-opacity="0.7"/>
+    <circle class="p3" cx="650" cy="300" r="2.2" fill="#818CF8" fill-opacity="0.7"/>
+    <circle class="p4" cx="560" cy="326" r="3"   fill="#22D3EE" fill-opacity="0.55"/>
+    <circle class="p5" cx="720" cy="292" r="2.6" fill="#A78BFA" fill-opacity="0.6"/>
+
+    <!-- orbit core (right focal) -->
+    <g transform="translate(1085,196)">
+      <circle r="132" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+      <circle r="92"  fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+      <circle r="52"  fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+      <circle r="24" fill="url(#ring)" filter="url(#bloom)" opacity="0.8"/>
+      <circle r="20" fill="url(#ring)">
+        <animate attributeName="r" values="20;23;20" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="20" fill="none" stroke="#22D3EE" stroke-opacity="0.5">
+        <animate attributeName="r" values="20;52" dur="3.4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.5;0" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
+        <circle cx="132" cy="0" r="6" fill="#22D3EE"/><circle cx="-132" cy="0" r="3.5" fill="#818CF8" fill-opacity="0.8"/>
+      </g>
+      <g><animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="22s" repeatCount="indefinite"/>
+        <circle cx="92" cy="0" r="5" fill="#A78BFA"/>
+      </g>
+      <g><animateTransform attributeName="transform" type="rotate" from="300" to="-60" dur="28s" repeatCount="indefinite"/>
+        <circle cx="52" cy="0" r="4" fill="#67E8F9"/>
+      </g>
+    </g>
+
+    <!-- window chrome -->
     <g class="chrome">
-      <circle cx="92"  cy="50" r="6" fill="#FF5F57" fill-opacity="0.85"/>
-      <circle cx="114" cy="50" r="6" fill="#FEBC2E" fill-opacity="0.85"/>
-      <circle cx="136" cy="50" r="6" fill="#28C840" fill-opacity="0.85"/>
-      <text x="164" y="55" font-size="15" letter-spacing="0.5" fill="#8A90A6"
-            font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace">gauravguha ~ product × code</text>
+      <circle cx="94" cy="54" r="6" fill="#FF5F57" fill-opacity="0.85"/>
+      <circle cx="116" cy="54" r="6" fill="#FEBC2E" fill-opacity="0.85"/>
+      <circle cx="138" cy="54" r="6" fill="#28C840" fill-opacity="0.85"/>
+      <text x="166" y="59" font-size="15" letter-spacing="0.5" fill="#8A90A6" font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace">gauravguha ~ product × code</text>
     </g>
 
-    <text class="eyebrow" x="92" y="112" font-size="14" letter-spacing="3.5" font-weight="600" fill="#A5B4FC"
-          font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">LEAD AI PRODUCT MANAGER</text>
+    <!-- eyebrow -->
+    <text class="eyebrow" x="94" y="120" font-size="14" letter-spacing="3.5" font-weight="600" fill="#A5B4FC" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">LEAD AI PRODUCT MANAGER</text>
 
-    <g class="name-fill" clip-path="url(#nameClip)">
-      <rect x="80" y="122" width="700" height="98" fill="url(#nameGrad)"/>
-      <rect class="shine" x="0" y="122" width="150" height="98" fill="url(#shineGrad)"/>
+    <!-- name: flowing gradient + bloom + wipe reveal -->
+    <g class="name">
+      <g>
+        <text x="88" y="212" font-size="90" font-weight="800" letter-spacing="-2" fill="url(#flow)" filter="url(#bloom)" opacity="0.55" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Gaurav Guha</text>
+        <text x="88" y="212" font-size="90" font-weight="800" letter-spacing="-2" fill="url(#flow)" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Gaurav Guha</text>
+      </g>
     </g>
 
-    <line class="uline" x1="90" y1="216" x2="564" y2="216" stroke="url(#ring)" stroke-width="4" stroke-linecap="round"/>
+    <!-- underline -->
+    <line class="uline" x1="92" y1="240" x2="612" y2="240" stroke="url(#ring)" stroke-width="4" stroke-linecap="round"/>
 
+    <!-- typewriter tagline + cursor -->
     <g class="motto">
-      <text x="90" y="264" font-size="25" fill="#C7CBDA"
-            font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace"><tspan fill="#22D3EE">&gt;</tspan> I ship code, not just specs</text>
-      <rect class="cursor" x="516" y="246" width="13" height="22" fill="#22D3EE"/>
+      <g clip-path="url(#typeClip)">
+        <text x="90" y="292" font-size="25" fill="#C7CBDA" font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace"><tspan fill="#22D3EE">&gt;</tspan> I ship code, not just specs</text>
+      </g>
+      <rect x="92" y="274" width="12" height="22" fill="#22D3EE">
+        <animate attributeName="x" values="92;150;220;290;360;420;508" keyTimes="0;0.16;0.33;0.5;0.7;0.86;1" calcMode="discrete" dur="1500ms" begin="1150ms" fill="freeze"/>
+        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" begin="2700ms" repeatCount="indefinite"/>
+      </rect>
     </g>
 
-    <g transform="translate(1058,168)">
-      <circle r="118" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
-      <circle r="76"  fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
-      <circle r="21"  fill="url(#ring)">
-        <animate attributeName="r" values="21;23;21" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="21" fill="none" stroke="#22D3EE" stroke-opacity="0.5">
-        <animate attributeName="r" values="21;46" dur="3.2s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-opacity" values="0.5;0" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-        <circle cx="118" cy="0" r="6" fill="#22D3EE"/>
-        <circle cx="-118" cy="0" r="3.5" fill="#818CF8" fill-opacity="0.8"/>
-      </g>
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite"/>
-        <circle cx="76" cy="0" r="5" fill="#A78BFA"/>
-      </g>
-    </g>
-
-    <rect x="1" y="1" width="1278" height="338" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
+    <rect x="1" y="1" width="1278" height="378" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
   </g>
 </svg>
