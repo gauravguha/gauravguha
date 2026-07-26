@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.">
+  <title>Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1218"/><stop offset="1" stop-color="#0B0D12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6C8CFF" stop-opacity="0.10"/><stop offset="1" stop-color="#6C8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip"><rect x="0" y="0" width="1280" height="300" rx="20"/></clipPath>
+    <style>
+      .a{opacity:0;animation:in 720ms cubic-bezier(.2,0,0,1) forwards}
+      .d1{animation-delay:60ms}.d2{animation-delay:150ms}.d3{animation-delay:260ms}.d4{animation-delay:360ms}.d5{animation-delay:180ms}
+      .rule{transform:scaleX(0);transform-origin:left center;transform-box:fill-box;animation:grow 760ms 300ms cubic-bezier(.2,0,0,1) forwards}
+      .glow{animation:breathe 14s ease-in-out infinite}
+      @keyframes in{to{opacity:1;transform:none}}
+      @keyframes grow{to{transform:scaleX(1)}}
+      @keyframes breathe{0%,100%{opacity:.7}50%{opacity:1}}
+      .a{transform:translateY(9px)}
+      @media (prefers-reduced-motion: reduce){
+        .a{opacity:1;transform:none;animation:none}
+        .rule{transform:none;animation:none}
+        .glow{animation:none}
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="1280" height="300" fill="url(#bg)"/>
+    <ellipse class="glow" cx="1080" cy="70" rx="520" ry="300" fill="url(#glow)"/>
+
+    <!-- identity (left) -->
+    <text class="a d1" x="90" y="116" font-size="13" letter-spacing="3.4" font-weight="600" fill="#8A909C"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">LEAD AI PRODUCT MANAGER</text>
+
+    <text class="a d2" x="88" y="182" font-size="62" font-weight="600" letter-spacing="-1.4" fill="#EDEFF3"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Gaurav Guha</text>
+
+    <rect class="rule" x="90" y="204" width="76" height="3" rx="1.5" fill="#6C8CFF"/>
+
+    <text class="a d3" x="90" y="242" font-size="21" font-weight="400" letter-spacing="0.2" fill="#9BA1AC"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">I ship code, not just specs.</text>
+
+    <!-- meta (right) -->
+    <g text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+      <text class="a d5" x="1190" y="150" font-size="12.5" letter-spacing="1.8" font-weight="600" fill="#7E8593">NATURAL HEROES</text>
+      <text class="a d4" x="1190" y="176" font-size="13.5" fill="#8A909C">Bangalore, India</text>
+      <text class="a d4" x="1190" y="202" font-size="13.5" font-weight="500" fill="#6C8CFF">gauravguha.com</text>
+    </g>
+
+    <line x1="90" y1="262" x2="1190" y2="262" stroke="#ffffff" stroke-opacity="0.06"/>
+    <rect x="0.75" y="0.75" width="1278.5" height="298.5" rx="19.25" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.5"/>
+  </g>
+</svg>

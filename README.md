@@ -1,60 +1,38 @@
-<!-- ✨ Profile banner — animated SVG lives in ./assets/header.svg -->
-<a href="https://www.gauravguha.com">
-  <img src="./assets/header.svg?v=3" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%" />
-</a>
+<!-- Profile banner — theme-adaptive, self-hosted SVG in ./assets -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=4">
+  <img src="./assets/header-light.svg?v=4" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%">
+</picture>
 
 <p align="center">
-  <a href="https://www.gauravguha.com"><img alt="Website" src="https://img.shields.io/badge/Website-gauravguha.com-6366F1?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0A0B14"></a>&nbsp;
-  <a href="https://linkedin.com/in/gauravguha"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0B14"></a>&nbsp;
-  <a href="https://thefrontkit.com"><img alt="thefrontkit" src="https://img.shields.io/badge/thefrontkit-Next.js%20kits-22D3EE?style=for-the-badge&logo=react&logoColor=0A0B14&labelColor=0A0B14"></a>
+  <a href="https://www.gauravguha.com"><img alt="Website" src="https://img.shields.io/badge/Website-gauravguha.com-1F2937?style=flat-square"></a>&nbsp;
+  <a href="https://linkedin.com/in/gauravguha"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-in%2Fgauravguha-1F2937?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
 ## About
 
 I've shaped open-source design systems like **[gluestack](https://gluestack.io)**, used by thousands of teams, helped build **[RapidNative](https://rapidnative.com)** (prompts to real React Native apps), and now lead AI product at **[Natural Heroes](https://naturalheroes.nl)**. On the side I build and sell **[thefrontkit](https://thefrontkit.com)**, production-ready Next.js app kits. I'm in the codebase as much as the roadmap.
 
-<details>
-<summary>🧭 <b>Pick your lens</b> — this reads differently depending on why you're here</summary>
+## Selected work
 
-<br>
-
-> **👔 Recruiting / Hiring** &nbsp;·&nbsp; A decade-plus across engineering and product. Today I own AI product end to end, and I still write the PRs, the evals, and the automations that ship it.
->
-> **🛠️ Engineer** &nbsp;·&nbsp; TypeScript / React / Next.js by day, Python + LLM pipelines for the AI work. I've contributed to design systems that thousands of teams build on.
->
-> **🚀 Founder** &nbsp;·&nbsp; I turn fuzzy ideas into shipped software, fast. thefrontkit exists because I kept rebuilding the same Next.js foundation and decided to productize it.
-
-</details>
+- **[gluestack](https://gluestack.io):** open-source design system, used by thousands of teams
+- **[RapidNative](https://rapidnative.com):** prompts to production React Native apps
+- **[thefrontkit](https://thefrontkit.com):** production-ready Next.js app kits
+- **[Natural Heroes](https://naturalheroes.nl):** where I lead AI product today
 
 ## Tech I work with
 
 <p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0A0B14">
-  <img alt="React" src="https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white&labelColor=0A0B14">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=0A0B14">
-  <img alt="React Native" src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=0A0B14&labelColor=0A0B14">
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0A0B14">
-  <img alt="shadcn/ui" src="https://img.shields.io/badge/shadcn%2Fui-0A0B14?style=for-the-badge&logo=shadcnui&logoColor=white&labelColor=0A0B14">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2937?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-1F2937?style=flat-square&logo=react&logoColor=white">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-1F2937?style=flat-square&logo=nextdotjs&logoColor=white">
+  <img alt="React Native" src="https://img.shields.io/badge/React%20Native-1F2937?style=flat-square&logo=react&logoColor=white">
+  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind-1F2937?style=flat-square&logo=tailwindcss&logoColor=white">
+  <img alt="shadcn/ui" src="https://img.shields.io/badge/shadcn%2Fui-1F2937?style=flat-square&logo=shadcnui&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-1F2937?style=flat-square&logo=python&logoColor=white">
+  <img alt="LLMs / RAG" src="https://img.shields.io/badge/LLMs%20%2F%20RAG-1F2937?style=flat-square&logo=openai&logoColor=white">
+  <img alt="n8n" src="https://img.shields.io/badge/n8n-1F2937?style=flat-square&logo=n8n&logoColor=white">
 </p>
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0A0B14">
-  <img alt="LLMs / RAG" src="https://img.shields.io/badge/LLMs%20%2F%20RAG-8B5CF6?style=for-the-badge&logo=openai&logoColor=white&labelColor=0A0B14">
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white&labelColor=0A0B14">
-</p>
-
-## What you'll find here
-
-- 🧰 **[thefrontkit](https://thefrontkit.com):** Next.js business app templates
-- ⚛️ Open-source design systems and dev tooling (gluestack, NativeBase, BuilderX)
-- 🤖 AI agents, automation, and eval experiments
-
-## The commit graph, on the move 🐍
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravguha/gauravguha/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gauravguha/gauravguha/output/github-contribution-grid-snake.svg">
-  <img alt="A snake eating Gaurav's GitHub contribution graph" src="https://raw.githubusercontent.com/gauravguha/gauravguha/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
 
 ## Education
 
@@ -62,8 +40,3 @@ I've shaped open-source design systems like **[gluestack](https://gluestack.io)*
 - **UT Austin:** Post Graduate Program in Artificial Intelligence & Machine Learning *(Nov 2024 – Nov 2025)*
 - **XLRI Jamshedpur:** Advanced Product Management *(Apr 2021 – Apr 2022)*
 - **PES University:** BE, Computer Science *(Aug 2008 – Aug 2012)*
-
-## Get in touch
-
-- Website: **[gauravguha.com](https://www.gauravguha.com)**
-- LinkedIn: **[in/gauravguha](https://linkedin.com/in/gauravguha)**
