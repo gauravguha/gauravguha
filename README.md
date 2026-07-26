@@ -1,6 +1,6 @@
 <!-- ✨ Profile banner — animated SVG lives in ./assets/header.svg -->
 <a href="https://www.gauravguha.com">
-  <img src="./assets/header.svg?v=2" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%" />
+  <img src="./assets/header.svg?v=3" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%" />
 </a>
 
 <p align="center">
@@ -12,6 +12,19 @@
 ## About
 
 I've shaped open-source design systems like **[gluestack](https://gluestack.io)**, used by thousands of teams, helped build **[RapidNative](https://rapidnative.com)** (prompts to real React Native apps), and now lead AI product at **[Natural Heroes](https://naturalheroes.nl)**. On the side I build and sell **[thefrontkit](https://thefrontkit.com)**, production-ready Next.js app kits. I'm in the codebase as much as the roadmap.
+
+<details>
+<summary>🧭 <b>Pick your lens</b> — this reads differently depending on why you're here</summary>
+
+<br>
+
+> **👔 Recruiting / Hiring** &nbsp;·&nbsp; A decade-plus across engineering and product. Today I own AI product end to end, and I still write the PRs, the evals, and the automations that ship it.
+>
+> **🛠️ Engineer** &nbsp;·&nbsp; TypeScript / React / Next.js by day, Python + LLM pipelines for the AI work. I've contributed to design systems that thousands of teams build on.
+>
+> **🚀 Founder** &nbsp;·&nbsp; I turn fuzzy ideas into shipped software, fast. thefrontkit exists because I kept rebuilding the same Next.js foundation and decided to productize it.
+
+</details>
 
 ## Tech I work with
 

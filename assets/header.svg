@@ -1,164 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-label="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.">
   <title>Gaurav Guha • Lead AI Product Manager. I ship code, not just specs.</title>
   <defs>
-    <linearGradient id="flow" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
-      <stop offset="0"    stop-color="#818CF8"/>
-      <stop offset="0.33" stop-color="#A78BFA"/>
-      <stop offset="0.66" stop-color="#22D3EE"/>
-      <stop offset="1"    stop-color="#818CF8"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="260 0" dur="7s" repeatCount="indefinite"/>
+    <linearGradient id="flow" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+      <stop offset="0" stop-color="#818CF8"/><stop offset="0.33" stop-color="#A78BFA"/><stop offset="0.66" stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="240 0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/>
-    </linearGradient>
-    <radialGradient id="aurA" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#6366F1" stop-opacity="0.7"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="aurB" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="aurC" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.55"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.6" cy="1.6" r="1.3" fill="#ffffff" fill-opacity="0.045"/>
-    </pattern>
-    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="42"/></filter>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#07070E"/><stop offset="1" stop-color="#0C0E1C"/></linearGradient>
+    <linearGradient id="gridLine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0.5"/></linearGradient>
+    <radialGradient id="aurA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#6366F1" stop-opacity="0.6"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="aurB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.5"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.55"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="46"/></filter>
     <filter id="bloom" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="7"/></filter>
-    <clipPath id="panelClip"><rect x="0" y="0" width="1280" height="380" rx="26"/></clipPath>
-    <clipPath id="typeClip"><rect x="86" y="268" width="0" height="34">
-      <animate attributeName="width" values="0;80;150;220;300;360;418" keyTimes="0;0.16;0.33;0.5;0.7;0.86;1" calcMode="discrete" dur="1500ms" begin="1150ms" fill="freeze"/>
-    </rect></clipPath>
+    <filter id="termGlow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="16"/></filter>
+    <clipPath id="panelClip"><rect x="0" y="0" width="1280" height="440" rx="26"/></clipPath>
+    <clipPath id="gridClip"><rect x="0" y="298" width="1280" height="142"/></clipPath>
 
     <style>
-      .aur-a{animation:driftA 17s ease-in-out infinite}
-      .aur-b{animation:driftB 21s ease-in-out infinite}
-      .aur-c{animation:driftC 19s ease-in-out infinite}
-      .name{animation:rise 900ms 200ms cubic-bezier(.2,.7,.2,1) both}
-      .chrome{animation:rise 800ms 100ms cubic-bezier(.2,.7,.2,1) both}
-      .eyebrow{animation:rise 800ms 160ms cubic-bezier(.2,.7,.2,1) both}
-      .motto{animation:fade 500ms 1100ms ease both}
-      .uline{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 1100ms 900ms cubic-bezier(.6,0,.2,1) forwards}
-      .p{animation:floatUp 9s ease-in-out infinite backwards}
-      .p2{animation:floatUp 11s 1.4s ease-in-out infinite backwards}
-      .p3{animation:floatUp 7.6s 2.8s ease-in-out infinite backwards}
-      .p4{animation:floatUp 10s 2s ease-in-out infinite backwards}
-      .p5{animation:floatUp 8.4s 4.3s ease-in-out infinite backwards}
-      .nd1{animation:twinkle 4s ease-in-out infinite}
-      .nd2{animation:twinkle 5.5s .8s ease-in-out infinite}
-      .nd3{animation:twinkle 6.5s 1.6s ease-in-out infinite}
-      .ln{animation:linePulse 6s ease-in-out infinite}
+      .aurA{animation:driftA 18s ease-in-out infinite}
+      .aurB{animation:driftB 22s ease-in-out infinite}
+      .eyebrow{animation:rise 800ms 120ms cubic-bezier(.2,.7,.2,1) both}
+      .name{animation:rise 950ms 200ms cubic-bezier(.2,.7,.2,1) both}
+      .tag{animation:rise 800ms 420ms cubic-bezier(.2,.7,.2,1) both}
+      .link{animation:rise 800ms 560ms cubic-bezier(.2,.7,.2,1) both}
+      .uline{stroke-dasharray:462;stroke-dashoffset:462;animation:draw 1100ms 700ms cubic-bezier(.6,0,.2,1) forwards}
+      .term{animation:rise 800ms 260ms cubic-bezier(.2,.7,.2,1) both}
+      .grid{animation:gridPulse 8s ease-in-out infinite}
+      .gmove{animation:gridMove 6s linear infinite}
+      .st{animation:tw 4s ease-in-out infinite}
+      .st2{animation:tw 5.5s .7s ease-in-out infinite}
+      .st3{animation:tw 6.8s 1.5s ease-in-out infinite}
+      .status{animation:pulse 2.4s ease-in-out infinite}
+      .l1{animation:pop 420ms 700ms cubic-bezier(.2,.8,.2,1) both}
+      .l2{animation:pop 420ms 1050ms cubic-bezier(.2,.8,.2,1) both}
+      .l3{animation:pop 420ms 1500ms cubic-bezier(.2,.8,.2,1) both}
+      .l4{animation:pop 420ms 1850ms cubic-bezier(.2,.8,.2,1) both}
+      .l5{animation:pop 420ms 2300ms cubic-bezier(.2,.8,.2,1) both}
+      .l6{animation:pop 420ms 2650ms cubic-bezier(.2,.8,.2,1) both}
+      .l7{animation:pop 420ms 3100ms cubic-bezier(.2,.8,.2,1) both}
+      .l8{animation:pop 420ms 3450ms cubic-bezier(.2,.8,.2,1) both}
+      .curse{animation:blink 1.05s 3900ms step-end infinite; opacity:0}
       @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-      @keyframes fade{from{opacity:0}to{opacity:1}}
-      @keyframes driftA{0%,100%{transform:translate(0,0)}50%{transform:translate(60px,-30px)}}
-      @keyframes driftB{0%,100%{transform:translate(0,0)}50%{transform:translate(-50px,34px)}}
-      @keyframes driftC{0%,100%{transform:translate(0,0)}50%{transform:translate(38px,26px)}}
+      @keyframes pop{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+      @keyframes driftA{0%,100%{transform:translate(0,0)}50%{transform:translate(56px,-28px)}}
+      @keyframes driftB{0%,100%{transform:translate(0,0)}50%{transform:translate(-46px,30px)}}
       @keyframes draw{to{stroke-dashoffset:0}}
-      @keyframes floatUp{0%{transform:translateY(0);opacity:0}12%{opacity:.7}88%{opacity:.7}100%{transform:translateY(-78px);opacity:0}}
-      @keyframes twinkle{0%,100%{opacity:.12}50%{opacity:.42}}
-      @keyframes linePulse{0%,100%{opacity:.08}50%{opacity:.22}}
+      @keyframes gridPulse{0%,100%{opacity:.5}50%{opacity:.8}}
+      @keyframes gridMove{from{transform:translateY(0)}to{transform:translateY(24px)}}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:.9}}
+      @keyframes pulse{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:1;transform:scale(1.25)}}
+      @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}
       @media (prefers-reduced-motion: reduce){
-        .aur-a,.aur-b,.aur-c,.name,.chrome,.eyebrow,.motto,.p,.p2,.p3,.p4,.p5,.nd1,.nd2,.nd3,.ln{animation:none}
-        .uline{stroke-dashoffset:0;animation:none}
+        .aurA,.aurB,.eyebrow,.name,.tag,.link,.term,.grid,.gmove,.st,.st2,.st3,.status,.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.curse{animation:none}
+        .uline{stroke-dashoffset:0;animation:none}.curse{opacity:1}
       }
     </style>
   </defs>
 
   <g clip-path="url(#panelClip)">
-    <rect x="0" y="0" width="1280" height="380" fill="#08090F"/>
+    <rect x="0" y="0" width="1280" height="440" fill="url(#sky)"/>
 
-    <!-- aurora mesh -->
+    <!-- aurora -->
     <g filter="url(#soft)">
-      <g class="aur-a"><circle cx="300" cy="150" r="230" fill="url(#aurA)"/></g>
-      <g class="aur-b"><circle cx="940" cy="120" r="210" fill="url(#aurB)"/></g>
-      <g class="aur-c"><circle cx="1120" cy="300" r="240" fill="url(#aurC)"/></g>
+      <g class="aurA"><circle cx="300" cy="150" r="240" fill="url(#aurA)"/></g>
+      <g class="aurB"><circle cx="1050" cy="120" r="220" fill="url(#aurB)"/></g>
     </g>
 
-    <rect x="0" y="0" width="1280" height="380" fill="url(#dots)"/>
-
-    <!-- ambient neural network (top strip) -->
-    <g stroke="#7DA6FF" fill="none">
-      <path class="ln"  d="M150,74 L330,116 L520,68 L706,104 L884,70 L1052,112 L1206,78" stroke-width="1"/>
-      <path class="ln"  d="M330,116 L360,168 M706,104 L640,166 M1052,112 L1150,168 M884,70 L960,160" stroke-width="1"/>
-    </g>
-    <g fill="#8FB4FF">
-      <circle class="nd1" cx="150"  cy="74"  r="3"/>
-      <circle class="nd2" cx="330"  cy="116" r="2.6"/>
-      <circle class="nd3" cx="520"  cy="68"  r="3.2"/>
-      <circle class="nd1" cx="706"  cy="104" r="2.6"/>
-      <circle class="nd2" cx="884"  cy="70"  r="3"/>
-      <circle class="nd3" cx="1052" cy="112" r="2.6"/>
-      <circle class="nd1" cx="1206" cy="78"  r="3"/>
-      <circle class="nd2" cx="360"  cy="168" r="2.2"/>
-      <circle class="nd3" cx="640"  cy="166" r="2.2"/>
-      <circle class="nd1" cx="960"  cy="160" r="2.2"/>
-      <circle class="nd2" cx="1150" cy="168" r="2.2"/>
+    <!-- stars -->
+    <g fill="#ffffff">
+      <circle class="st"  cx="140" cy="70"  r="1.5"/><circle class="st2" cx="240" cy="120" r="1.2"/><circle class="st3" cx="360" cy="60"  r="1.6"/>
+      <circle class="st2" cx="520" cy="96"  r="1.2"/><circle class="st"  cx="80"  cy="150" r="1.3"/><circle class="st3" cx="420" cy="150" r="1.1"/>
+      <circle class="st"  cx="700" cy="70"  r="1.4"/><circle class="st2" cx="860" cy="120" r="1.2"/><circle class="st3" cx="980" cy="66"  r="1.5"/>
+      <circle class="st"  cx="1140" cy="110" r="1.3"/><circle class="st2" cx="1220" cy="70" r="1.2"/><circle class="st3" cx="600" cy="130" r="1.1"/>
+      <circle class="st"  cx="1060" cy="180" r="1.2"/><circle class="st2" cx="180" cy="230" r="1.1"/>
     </g>
 
-    <!-- floating particles -->
-    <circle class="p"  cx="470" cy="300" r="3"   fill="#22D3EE" fill-opacity="0.7"/>
-    <circle class="p2" cx="360" cy="318" r="2.4" fill="#A78BFA" fill-opacity="0.7"/>
-    <circle class="p3" cx="650" cy="300" r="2.2" fill="#818CF8" fill-opacity="0.7"/>
-    <circle class="p4" cx="560" cy="326" r="3"   fill="#22D3EE" fill-opacity="0.55"/>
-    <circle class="p5" cx="720" cy="292" r="2.6" fill="#A78BFA" fill-opacity="0.6"/>
+    <!-- synthwave perspective grid -->
+    <g clip-path="url(#gridClip)">
+      <ellipse cx="470" cy="300" rx="260" ry="60" fill="url(#sun)"/>
+      <g class="grid" stroke="url(#gridLine)" stroke-width="1.2">
+        <line x1="470" y1="300" x2="-140" y2="440"/><line x1="470" y1="300" x2="10" y2="440"/><line x1="470" y1="300" x2="150" y2="440"/>
+        <line x1="470" y1="300" x2="290" y2="440"/><line x1="470" y1="300" x2="420" y2="440"/><line x1="470" y1="300" x2="520" y2="440"/>
+        <line x1="470" y1="300" x2="650" y2="440"/><line x1="470" y1="300" x2="800" y2="440"/><line x1="470" y1="300" x2="980" y2="440"/>
+        <line x1="470" y1="300" x2="1180" y2="440"/><line x1="470" y1="300" x2="1420" y2="440"/>
+        <g class="gmove" stroke="#22D3EE" stroke-opacity="0.4">
+          <line x1="0" y1="306" x2="1280" y2="306"/><line x1="0" y1="316" x2="1280" y2="316"/><line x1="0" y1="330" x2="1280" y2="330"/>
+          <line x1="0" y1="349" x2="1280" y2="349"/><line x1="0" y1="374" x2="1280" y2="374"/><line x1="0" y1="406" x2="1280" y2="406"/>
+        </g>
+      </g>
+    </g>
 
-    <!-- orbit core (right focal) -->
-    <g transform="translate(1085,196)">
-      <circle r="132" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
-      <circle r="92"  fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
-      <circle r="52"  fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
-      <circle r="24" fill="url(#ring)" filter="url(#bloom)" opacity="0.8"/>
-      <circle r="20" fill="url(#ring)">
-        <animate attributeName="r" values="20;23;20" dur="3.4s" repeatCount="indefinite"/>
+    <!-- ===== LEFT: identity ===== -->
+    <g>
+      <circle cx="70" cy="120" r="5" fill="#3FB950"/>
+      <circle cx="70" cy="120" r="5" fill="none" stroke="#3FB950" stroke-opacity="0.6">
+        <animate attributeName="r" values="5;13" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0" dur="2.4s" repeatCount="indefinite"/>
       </circle>
-      <circle r="20" fill="none" stroke="#22D3EE" stroke-opacity="0.5">
-        <animate attributeName="r" values="20;52" dur="3.4s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-opacity" values="0.5;0" dur="3.4s" repeatCount="indefinite"/>
-      </circle>
-      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/>
-        <circle cx="132" cy="0" r="6" fill="#22D3EE"/><circle cx="-132" cy="0" r="3.5" fill="#818CF8" fill-opacity="0.8"/>
-      </g>
-      <g><animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="22s" repeatCount="indefinite"/>
-        <circle cx="92" cy="0" r="5" fill="#A78BFA"/>
-      </g>
-      <g><animateTransform attributeName="transform" type="rotate" from="300" to="-60" dur="28s" repeatCount="indefinite"/>
-        <circle cx="52" cy="0" r="4" fill="#67E8F9"/>
-      </g>
     </g>
+    <text class="eyebrow" x="86" y="125" font-size="13.5" letter-spacing="2.5" fill="#8B93A7" font-family="'SF Mono','JetBrains Mono',Consolas,monospace">available for hard problems</text>
 
-    <!-- window chrome -->
-    <g class="chrome">
-      <circle cx="94" cy="54" r="6" fill="#FF5F57" fill-opacity="0.85"/>
-      <circle cx="116" cy="54" r="6" fill="#FEBC2E" fill-opacity="0.85"/>
-      <circle cx="138" cy="54" r="6" fill="#28C840" fill-opacity="0.85"/>
-      <text x="166" y="59" font-size="15" letter-spacing="0.5" fill="#8A90A6" font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace">gauravguha ~ product × code</text>
-    </g>
+    <text class="eyebrow" x="66" y="168" font-size="14" letter-spacing="3.5" font-weight="600" fill="#A5B4FC" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">LEAD AI PRODUCT MANAGER</text>
 
-    <!-- eyebrow -->
-    <text class="eyebrow" x="94" y="120" font-size="14" letter-spacing="3.5" font-weight="600" fill="#A5B4FC" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">LEAD AI PRODUCT MANAGER</text>
-
-    <!-- name: flowing gradient + bloom + wipe reveal -->
     <g class="name">
-      <g>
-        <text x="88" y="212" font-size="90" font-weight="800" letter-spacing="-2" fill="url(#flow)" filter="url(#bloom)" opacity="0.55" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Gaurav Guha</text>
-        <text x="88" y="212" font-size="90" font-weight="800" letter-spacing="-2" fill="url(#flow)" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Gaurav Guha</text>
+      <text x="64" y="252" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#flow)" filter="url(#bloom)" opacity="0.55" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Gaurav Guha</text>
+      <text x="64" y="252" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#flow)" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">Gaurav Guha</text>
+    </g>
+    <line class="uline" x1="68" y1="278" x2="530" y2="278" stroke="url(#ring)" stroke-width="4" stroke-linecap="round"/>
+
+    <text class="tag" x="66" y="326" font-size="23" fill="#C7CBDA" font-family="'SF Mono','JetBrains Mono',Consolas,monospace"><tspan fill="#22D3EE">&gt;</tspan> I ship code, not just specs</text>
+    <text class="link" x="66" y="366" font-size="15" fill="#8B93A7" font-family="'SF Mono','JetBrains Mono',Consolas,monospace"><tspan fill="#818CF8">↗</tspan> gauravguha.com   <tspan fill="#818CF8">·</tspan>   in/gauravguha</text>
+
+    <!-- ===== RIGHT: self-playing terminal ===== -->
+    <g class="term">
+      <rect x="604" y="70" width="612" height="300" rx="14" fill="#22D3EE" opacity="0.12" filter="url(#termGlow)"/>
+      <rect x="604" y="70" width="612" height="300" rx="14" fill="#0B0D16" stroke="#20263a" stroke-width="1.5"/>
+      <rect x="604" y="70" width="612" height="40" rx="14" fill="#11141f"/>
+      <rect x="604" y="96" width="612" height="14" fill="#11141f"/>
+      <circle cx="628" cy="90" r="6" fill="#FF5F57"/><circle cx="648" cy="90" r="6" fill="#FEBC2E"/><circle cx="668" cy="90" r="6" fill="#28C840"/>
+      <text x="910" y="95" text-anchor="middle" font-size="13" fill="#6b7280" font-family="'SF Mono','JetBrains Mono',Consolas,monospace">gaurav — zsh — 80×24</text>
+
+      <g font-size="16" font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace">
+        <text class="l1" x="628" y="150"><tspan fill="#3FB950">gaurav@nh</tspan><tspan fill="#6b7280"> ~ % </tspan><tspan fill="#E6EDF3">whoami</tspan></text>
+        <text class="l2" x="628" y="176"><tspan fill="#8B93A7">Gaurav Guha · </tspan><tspan fill="#A5B4FC">Lead AI Product Manager</tspan></text>
+        <text class="l3" x="628" y="208"><tspan fill="#3FB950">gaurav@nh</tspan><tspan fill="#6b7280"> ~ % </tspan><tspan fill="#E6EDF3">cat manifesto.txt</tspan></text>
+        <text class="l4" x="628" y="234"><tspan fill="#22D3EE">I ship code, not just specs.</tspan></text>
+        <text class="l5" x="628" y="266"><tspan fill="#3FB950">gaurav@nh</tspan><tspan fill="#6b7280"> ~ % </tspan><tspan fill="#E6EDF3">ls ./work</tspan></text>
+        <text class="l6" x="628" y="292"><tspan fill="#67E8F9">gluestack  rapidnative  thefrontkit  natural-heroes</tspan></text>
+        <text class="l7" x="628" y="324"><tspan fill="#3FB950">gaurav@nh</tspan><tspan fill="#6b7280"> ~ % </tspan><tspan fill="#E6EDF3">./ship.sh --now</tspan></text>
+        <text class="l8" x="628" y="350"><tspan fill="#8B93A7">deploying… </tspan><tspan fill="#3FB950">✓ live in production</tspan></text>
       </g>
+      <rect class="curse" x="628" y="336" width="10" height="18" fill="#22D3EE"/>
     </g>
 
-    <!-- underline -->
-    <line class="uline" x1="92" y1="240" x2="612" y2="240" stroke="url(#ring)" stroke-width="4" stroke-linecap="round"/>
-
-    <!-- typewriter tagline + cursor -->
-    <g class="motto">
-      <g clip-path="url(#typeClip)">
-        <text x="90" y="292" font-size="25" fill="#C7CBDA" font-family="'SF Mono','JetBrains Mono',Consolas,'Courier New',monospace"><tspan fill="#22D3EE">&gt;</tspan> I ship code, not just specs</text>
-      </g>
-      <rect x="92" y="274" width="12" height="22" fill="#22D3EE">
-        <animate attributeName="x" values="92;150;220;290;360;420;508" keyTimes="0;0.16;0.33;0.5;0.7;0.86;1" calcMode="discrete" dur="1500ms" begin="1150ms" fill="freeze"/>
-        <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" begin="2700ms" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <rect x="1" y="1" width="1278" height="378" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
+    <rect x="1" y="1" width="1278" height="438" rx="25" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
   </g>
 </svg>
