@@ -1,7 +1,7 @@
 <!-- Profile banner — theme-adaptive, self-hosted SVG in ./assets -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=4">
-  <img src="./assets/header-light.svg?v=4" alt="Gaurav Guha • Lead AI Product Manager. I ship code, not just specs." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=5">
+  <img src="./assets/header-light.svg?v=5" alt="Gaurav Guha • Lead AI Product Manager • Hands-on product leadership in AI." width="100%">
 </picture>
 
 <p align="center">
@@ -11,13 +11,13 @@
 
 ## About
 
-I've shaped open-source design systems like **[gluestack](https://gluestack.io)**, used by thousands of teams, helped build **[RapidNative](https://rapidnative.com)** (prompts to real React Native apps), and now lead AI product at **[Natural Heroes](https://naturalheroes.nl)**. On the side I build and sell **[thefrontkit](https://thefrontkit.com)**, production-ready Next.js app kits. I'm in the codebase as much as the roadmap.
+I lead AI product at **[Natural Heroes](https://naturalheroes.nl)**. Earlier I helped shape **[gluestack](https://gluestack.io)**, an open-source design system now used by thousands of teams, and **[RapidNative](https://rapidnative.com)**, which turns prompts into working React Native apps. On the side I build **[thefrontkit](https://thefrontkit.com)**, a set of production-ready Next.js starters.
 
 ## Selected work
 
 - **[gluestack](https://gluestack.io):** open-source design system, used by thousands of teams
 - **[RapidNative](https://rapidnative.com):** prompts to production React Native apps
-- **[thefrontkit](https://thefrontkit.com):** production-ready Next.js app kits
+- **[thefrontkit](https://thefrontkit.com):** production-ready Next.js starters
 - **[Natural Heroes](https://naturalheroes.nl):** where I lead AI product today
 
 ## Tech I work with
