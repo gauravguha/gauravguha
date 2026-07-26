@@ -1,7 +1,7 @@
 <!-- Profile banner — theme-adaptive, self-hosted SVG in ./assets -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=5">
-  <img src="./assets/header-light.svg?v=5" alt="Gaurav Guha • Lead AI Product Manager • Hands-on product leadership in AI." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg?v=6">
+  <img src="./assets/header-light.svg?v=6" alt="Gaurav Guha • Lead AI Product Manager • Hands-on product leadership in AI." width="100%">
 </picture>
 
 <p align="center">
